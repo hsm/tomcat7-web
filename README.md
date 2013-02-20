@@ -9,6 +9,10 @@ Maven Commands
 --------------
 
 Clean application: `mvn clean`
-Run application: `mvn tomcat7:run` (don't use the `tomcat:run` goal as it does not invoke the tomcat7 plugin => weird stuff potentially happens)
+
+Run application: `mvn tomcat7:run` (don't use the `tomcat:run` goal as it does not invoke the tomcat7 plugin =>
+weird stuff potentially happens)
+
 Build WAR: `mvn package`
+
 Goals can be combined: `mvn clean package`
